@@ -1,0 +1,308 @@
+#todayTasks {
+    padding: 0;
+    height: 49%;
+    max-height: 49%;
+    border-style: solid;
+    border-width: 0 0 1px 3px;
+    border-color: rgba(0, 0, 0, 0.43);
+}
+#todayTasks-title {
+    background: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 125%;
+    text-align: center;
+    font-variant: all-petite-caps;
+    padding: 1% 0;
+    color: white;
+}
+#todayTasks-list {
+    height: 345px;
+    max-height: 345px;
+    padding: 0;
+}
+#home-datetime {
+    height: 49%;
+    background: rgba(98, 0, 0, 0.3);
+    border-left: 1px solid white;
+}
+.clock {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+#Date {
+    font-variant: all-petite-caps;
+    font-size: 175%;
+    text-align: center;
+    text-shadow: 0 0 1px RGBA(47, 1, 1, 0.66);
+    color: rgba(0, 0, 0, 0.52);
+}
+.clock ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 24%;
+}
+.clock ul li {
+    display: inline;
+    font-size: 510%;
+    text-align: center;
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 2px rgba(57, 2, 2, 0.92);
+    color: black;
+}
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@-webkit-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+}
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+}
+#clients-statistics {
+    padding: 1.5% 0;
+    height: 35.5%;
+    background: rgba(98, 0, 0, 0.3);
+}
+#clients-statistics svg {
+    background: white !important;
+}
+.task-item {
+    height: 125px;
+    border-radius: 5px;
+    background: white;
+    padding: 0;
+}
+.task-type {
+    padding: 9% 0;
+    text-align: center;
+    font-size: 87%;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    color: black;
+    margin-bottom: 0 !important;
+}
+.task-state {
+    font-size: 175%;
+    background-color: #fff;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    cursor: help;
+    border: solid #ccc;
+    border-width: 0 1px 1px 0;
+}
+.task-state .fa-bullseye {
+    color: rgb(255, 144, 0);
+}
+.task-state .fa-check {
+    color: #00d100;
+}
+.task-datetime {
+    border-right: 1px solid #ccc;
+    padding: 0;
+    height: 100%;
+}
+.task-datetime-title {
+    padding: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 180%;
+    margin: 4.5% 0;
+}
+.task-datetime-time {
+    font-weight: 600;
+    font-size: 110%;
+    margin: 1.5% 0 0;
+    padding: 0;
+}
+.task-data {
+    padding: 0;
+    height: 100%;
+}
+.task-data-subject {
+    background: #967474;
+    font-weight: 600;
+    padding: 1.75%;
+    border-bottom: 1px solid black;
+}
+.task-data-desc {
+    padding: 1%;
+    height: 71%;
+    background: lightgrey;
+    resize: none;
+}
+.task-actions {
+    padding: 0;
+    height: 100%;
+}
+.task-action {
+    font-size: 140%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 1px;
+    height: 33.33%;
+}
+.task-item .task-report {
+    padding: 0;
+    height: 100%;
+}
+.task-report .task-report-text {
+    height: 100%;
+    padding: 1.5%;
+    border: solid black;
+    border-width: 0 4px;
+    width: 89%;
+    float: left;
+    resize: none;
+}
+.task-report .task-report-save {
+    padding: 0;
+    color: black;
+    background: lightgrey;
+    height: 100%;
+    font-size: 150%;
+    width: 11%;
+    float: left;
+    border-radius: 0;
+}
+.task-report .task-report-save i {
+    margin-top: 75%;
+}
+.task-files {
+    padding: 0;
+    height: 100%;
+}
+.task-files .not-files,
+.task-files .file-list {
+    height: 100%;
+    padding: 7.75% 1%;
+    text-align: center;
+    font-weight: bolder;
+    width: 89%;
+    float: left;
+}
+.file-list {
+    padding: 1% !important;
+}
+.file-list .file-item {
+    height: 45%;
+    width: 12.5%;
+    margin: 0.5% 2% 1%;
+    float: left;
+    font-size: 300%;
+    padding: 1% 0;
+    color: black;
+    text-decoration: none;
+}
+.task-files .file-add {
+    float: left;
+    width: 11%;
+    height: 100%;
+    padding: 8% 0;
+    font-size: 150%;
+    border-radius: 0;
+}
+.task-dropzone {
+    padding: 1%;
+    background: rgba(57, 198, 228, 0.37) !important;
+    border-style: solid !important;
+    border-color: rgba(128, 128, 128, 0.3) !important;
+    border-width: 0 0 2px 2px !important;
+    width: 89%;
+    float: left;
+    height: 100%;
+    min-height: 100% !important;
+    margin: 0;
+    overflow-y: auto;
+}
+.task-dropzone .dz-message {
+    font-weight: 600;
+    margin: 12.5% 25%;
+}
+#not-tasks {
+    padding: 20% 32%;
+    font-weight: bolder;
+    font-size: 125%;
+    font-variant: all-petite-caps;
+    text-align: center;
+    background: white;
+}
+
+
+
+/* laptop screen 1366x768*/
+@media (min-width: 1360px) and (max-width: 1399px) {
+    #todayTasks {
+        height: 44%;
+        max-height: 44%;
+        padding: 0;
+    }
+
+    #todayTasks-list {
+        height: 280px;
+        max-height: 280px;
+        padding: 0;
+    }
+
+    #clients-statistics {
+        height: 37%;
+    }
+}
+
+/* MAC PRO screen 1280*800*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #todayTasks {
+        height: 44%;
+        max-height: 44%;
+        padding: 0;
+    }
+    #todayTasks-list {
+        height: 285px;
+        max-height: 285px;
+        padding: 0;
+    }
+    #clients-statistics {
+        height: 37%;
+    }
+    .clock ul li {
+        font-size: 425%;
+    }
+}

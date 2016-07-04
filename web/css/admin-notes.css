@@ -1,0 +1,41 @@
+#notes-list {
+    height: 666px;
+    padding: 0;
+}
+.note-item {
+    background: rgba(255, 255, 0, 0.32);
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+    margin: 0.5% 0.25%;
+}
+.note-subject {
+    background: black;
+    padding: 0.5%;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+}
+.note-update,
+.note-finalize,
+.note-delete {
+    padding: 0.5% 2%;
+}
+
+.note-text {
+    resize: none;
+    background: lightgrey;
+    height: 200px !important;
+}
+
+@media (min-width: 1360px) and (max-width: 1399px) {
+    #notes-list {
+        height: 545px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #notes-list {
+        height: 555px;
+    }
+}

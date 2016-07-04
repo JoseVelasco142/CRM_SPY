@@ -1,0 +1,608 @@
+
+/* COMMON STYLES */
+
+/* office monitor 1400x1900*/
+/* top filter search bar */
+#search-filter-bar {
+    background: rgba(89, 0, 0, 0.34);
+    height: 60px;
+    padding: 0.5% 0;
+}
+#search-bar {
+    border-radius: 5px;
+    padding: 0.5% 0.5% 0.5%;
+    height: 49px;
+}
+#search-bar button[type="submit"]{
+    background: rgb(183, 183, 183) none repeat scroll 0 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    font-size: 160%;
+    padding: 0 4%;
+    font-weight: bolder;
+    color: rgb(45, 45, 45);
+    border: 0;
+    border-right: 9px solid black;
+}
+#search-bar input[type="text"]{
+    height: 36.5px;
+    background: lightgrey;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-radius: 0 5px 5px 0;
+}
+#search-bar input[type="text"]:focus{
+    background: white;
+}
+#search-input {
+    height: 36px;
+}
+.field-clientlist-search {
+    margin-bottom: 0;
+}
+#search-bar a {
+    background: white;
+    color: black;
+    font-size: 163%;
+    padding: 11% 0;
+}
+#filter-bar {
+    padding: 0.5% 0;
+    height: 46px;
+}
+#search-button {
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    border-radius: 5px 0 0 5px;
+}
+#location {
+    height: 37px;
+}
+#faculty,
+#department {
+    height: 37px;
+}
+#filter-bar .col-xs-3 {
+    height: 110%;
+    padding: 0 0.25% 0 0;
+}
+#filter-bar .col-xs-3 .form-control {
+    height: 36.5px;
+}
+.field-clientlist-category {
+    margin-bottom: 0;
+}
+.field-clientlist-sector {
+    margin-bottom: 0;
+}
+
+#clear-filter {
+    background: black;
+    height: 36px;
+    padding: 0.80% 0;
+    margin-top: 0.5%;
+    width: 4.5%;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    left: 95%;
+    top: 97%;
+    z-index: 999999;
+}
+
+/* client view */
+#block-list{
+    background: rgba(78, 25, 25, 0.48) none repeat scroll 0 0;
+    max-height: 100%;
+    min-height: 100%;
+    padding: 0;
+}
+#header-list {
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    background: lightgrey none repeat scroll 0 0;
+    font-size: 115%;
+    font-weight: bolder;
+}
+#header-legend .fa {
+    font-size: 140%;
+}
+#header-legend .fa-info {
+    margin-left: 55%;
+}
+#header-legend .fa-map-marker {
+    margin-left: 62%;
+}
+#header-legend .fa-eye{
+    margin-left: 47.5%;
+}
+#header-legend .fa-question {
+    margin-left: 42.5%;
+}
+#header-legend .fa-thumb-tack{
+    margin-left: 67%;
+}
+#client-list {
+    max-height: 562px;
+    min-height: 562px;
+    padding: 0;
+    overflow-y: auto;
+    overflow: -moz-scrollbars-none;
+}
+#client-list::-webkit-scrollbar {
+    width: 0!important;
+}
+
+/* client items */
+/* row */
+.client-item {
+    background: white none repeat scroll 0 0;
+    border-top: 1px solid black;
+    padding: 0;
+}
+.client-item .DISC {
+    height: 45.85px;
+    padding: 0;
+    border-right: 2px solid black;
+    border-radius: 0 3px 3px 0;
+    width: 3%;
+}
+.client-item .client-name {
+    padding: 1.5% 15px;
+    height: 45px;
+    font-size: 115%;
+    line-height: 30px;
+}
+.client-item .action-icon {
+    max-width: 58%;
+    margin: auto auto;
+    margin-top: 6.5%;
+}
+.client-expand,
+.client-full,
+.client-route,
+.client-task {
+    height: 28px;
+    font-size: 139%;
+    padding: 0;
+    width: 80%;
+    margin: 15% 20% 0;
+}
+.fa-arrows-alt {
+    color: black;
+    font-size: 110%;
+    padding: 0 7.5%;
+}
+/* routes */
+.added {
+    background: #14802d;
+}
+.client-route img {
+    max-width: 70%;
+    height: 90%;
+    margin: 3% auto 0;
+}
+
+/* details */
+.client-item .client-details {
+    background: rgb(203, 203, 203) none repeat scroll 0 0;
+    padding: 0;
+    padding-left: 1.35%;
+}
+.client-item .detail-block {
+    background: white none repeat scroll 0 0;
+    padding: 0;
+}
+/* contacts */
+.detail-block.detail-first {
+    border: solid black;
+    border-width: 0 1px 12px;
+    background: rgb(239, 237, 237);
+}
+.client-item .detail-close {
+    display: none;
+}
+.client-item .contact-list {
+    height: 185px;
+    padding: 2%;
+}
+.contact-list-title {
+    background: black;
+    padding: 2%;
+    font-size: 124%;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.contact-list .contact-item {
+    height: 40px;
+    border-radius: 5px 5px 22%;
+    background: url("../img/contact-item.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-bottom: 2.5%;
+}
+.contact-list .contact_main {
+    border-bottom: 3px solid red;
+    border-right: 3px solid black;
+}
+.popover {
+    width: 400px!important;
+}
+.popover-title {
+    text-align: center;
+    font-weight: 600;
+    background: #967474;
+    color: black;
+}
+.popover-content {
+    padding: 6px 11px;
+    height: 85px;
+}
+.popover-client-mail {
+    font-size: 78%;
+    padding: 1% 0 !important;
+}
+
+/* tasks */
+.detail-block.detail-center {
+    height: 229px;
+}
+.task-list-title {
+    background: black;
+    color: white;
+    height: 32px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 120%;
+    padding: 1%;
+}
+.task-list {
+    height: 198px;
+    border: solid black;
+    border-width: 0 1px 12px;
+    background: #471818;
+    padding: 0;
+    overflow: hidden;
+}
+.task-item {
+    height: 125px;
+    border-radius: 5px;
+    background: white;
+    padding: 0;
+}
+.task-type {
+    padding: 9% 0;
+    text-align: center;
+    font-size: 87%;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    color: black;
+}
+.task-state {
+    font-size: 175%;
+    background-color: #fff;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    cursor: help;
+    border: solid #ccc;
+    border-width: 0 1px 1px 0;
+}
+.task-state .fa-bullseye {
+    color: rgb(255, 144, 0);
+}
+.task-state .fa-check {
+    color: #00d100;
+}
+.task-datetime {
+    border-right: 1px solid #ccc;
+    padding: 0;
+}
+.task-datetime-title {
+    padding: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 180%;
+    margin: 7.5% 0;
+}
+.task-datetime-time {
+    font-weight: 600;
+    font-size: 110%;
+    margin: 4.5% 0;
+    padding: 0;
+    text-align: center;
+}
+.task-datetime-time .col-xs-12 {
+    padding: 0 !important;
+}
+.task-data {
+    padding: 0;
+    height: 100%;
+}
+.task-data-subject {
+    background: #967474;
+    font-weight: 600;
+    padding: 1.75%;
+    border-bottom: 1px solid black;
+}
+.task-data-desc {
+    padding: 1%;
+    height: 71%;
+    background: lightgrey;
+    resize: none;
+}
+.task-actions {
+    padding: 0;
+    height: 100%;
+}
+.task-action {
+    font-size: 140%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 1px;
+    height: 33.33%;
+}
+.task-item .task-report {
+    padding: 0;
+    height: 100%;
+}
+.task-report .task-report-text {
+    height: 100%;
+    padding: 1.5%;
+    border: solid black;
+    border-width: 0 4px;
+    width: 89%;
+    float: left;
+    resize: none;
+}
+.task-report .task-report-save {
+    padding: 12% 0;
+    color: black;
+    background: lightgrey;
+    height: 100%;
+    font-size: 150%;
+    width: 11%;
+    float: left;
+}
+.task-files {
+    padding: 0;
+    height: 100%;
+}
+.task-files .not-files,
+.task-files .file-list {
+    height: 100%;
+    padding: 12%;
+    text-align: center;
+    font-weight: bolder;
+    width: 89%;
+    float: left;
+}
+.file-list {
+    padding: 1%;
+}
+.file-list .file-item {
+    height: 45%;
+    width: 12.5%;
+    margin: 0.5% 2% 1%;
+    float: left;
+    font-size: 300%;
+    padding: 1% 0;
+    color: black;
+    text-decoration: none;
+}
+.task-files .file-add {
+    float: left;
+    width: 11%;
+    height: 100%;
+    padding: 10.75% 1%;
+    font-size: 150%;
+    border-radius: 0;
+}
+.task-dropzone {
+    width: 89%;
+    float: left;
+    height: 100%;
+    min-height: 100%!important;
+    padding: 1%;
+    background: rgba(183, 228, 252, 0.61)!important;
+    margin: 0;
+    border-radius: 0 5px 5px 0;
+    overflow-y: auto;
+
+}
+.task-dropzone .dz-message {
+    font-weight: 600;
+    margin: 12.5% 25%;
+}
+.not-tasks {
+    padding: 14% 25%;
+    text-align: center;
+    font-weight: bolder;
+    background: #efefef;
+    height: 100%;
+}
+.not-allowed {
+    cursor: not-allowed!important;
+}
+.task-finished {
+    opacity: 0.50;
+}
+
+/* map */
+.detail-block.detail-last {
+    height: 228.5px;
+}
+.client-item .expand-map {
+    height: 100%;
+}
+.map-info-location .address {
+    font-weight: 600;
+    font-size: 125%;
+    background: white;
+}
+.map-info-location .extra {
+    font-weight: 500;
+    font-size: 105%;
+}
+
+/* footer pagination */
+#pagers {
+    position: fixed;
+    top: 93%;
+    z-index: 999;
+}
+.pagination {
+    border-radius: 4px;
+    padding: 0 10%;
+    width: 580%;
+    margin-top: 5.5%;
+}
+.pagination li  {
+    border-color: white!important;
+}
+.pagination a {
+    color: black!important;
+    font-weight: 600;
+}
+.pagination .active a {
+    background: #471818;
+    border-color: white!important;
+}
+.pagination .active a:hover {
+    background: #471818;
+}
+
+
+
+/* office monitor 1366x768*/
+@media (min-width: 1360px) and (max-width: 1399px) {
+    /* client/index */
+    #search-filter-bar {
+        height: 47px;
+        padding: 0;
+    }
+    #filter-bar {
+        padding: 0.5%;
+        height: 47px;
+    }
+    #clear-filter {
+        height: 25px;
+        padding: 0.40% 0;
+        margin-top: 0.35%;
+    }
+    #header-list {
+        padding-top: 0.5%;
+    }
+    #client-list {
+        max-height: 473px;
+        min-height: 473px;
+        height: 473px;
+    }
+    #header-list {
+        padding-top: 0.5%;
+        padding-bottom: 0;
+    }
+    #header-legend .fa {
+        font-size: 130%;
+    }
+    #client-list {
+        min-height: 472px;
+        max-height: 472px;
+    }
+    .client-item .col-xs-6 {
+        height: 38.275px;
+    }
+    .client-item .DISC {
+        height: 38.2px;
+    }
+    .client-item .client-name {
+        padding: 0.5% 15px;
+        height: 38px;
+        font-size: 115%;
+        line-height: 35px;
+    }
+    .client-item .action-icon {
+        max-width: 51%;
+    }
+    .client-expand, .client-full, .client-route, .client-task {
+        margin: 8% 20% 0;
+    }
+    .not-tasks {
+        padding: 14.5% 25%;
+    }
+}
+
+/* MAC PRO screen 1280*800 */
+@media (min-width: 1280px) and (max-width: 1359px) {
+    /* client/index */
+    #search-filter-bar {
+        height: 47px;
+        padding: 0;
+    }
+    #clientlist-search {
+        height: 36px;
+    }
+    #filter-bar {
+        padding: 0.575% 0 0;
+        height: 47px;
+    }
+    #clear-filter {
+        height: 25px;
+        padding: 0.40% 0;
+        margin-top: 0.35%;
+    }
+    #header-list {
+        padding-top: 0.5%;
+    }
+    #client-list {
+        max-height: 488px;
+        min-height: 488px;
+        height: 488px;
+
+    }
+    #header-list {
+        padding-top: 0.5%;
+        padding-bottom: 0;
+    }
+    #header-legend .fa {
+        font-size: 130%;
+    }
+    #client-list {
+        min-height: 472px;
+        max-height: 472px;
+    }
+    .client-item .col-xs-6 {
+        height: 38.275px;
+    }
+    .client-item .DISC {
+        height: 38.2px ;
+    }
+    .client-item .client-name {
+        padding: 0.5% 15px;
+        height: 38px;
+        font-size: 115%;
+        line-height: 35px;
+    }
+    .client-item .action-icon {
+        max-width: 51%;
+    }
+    .client-expand, .client-full, .client-route, .client-task {
+        margin: 8% 20% 0;
+    }
+    .not-tasks {
+        padding: 14.5% 25%;
+    }
+}

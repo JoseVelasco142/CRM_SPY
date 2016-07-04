@@ -1,0 +1,148 @@
+/* laptop screen 1400*900 */
+#calendar-main {
+    height: 100%;
+    max-width: 90%;
+    min-width: 90%;
+    margin: 0;
+    float: left;
+    padding: 0.5% 1%;
+    background: rgba(86, 2, 2, 0.32);
+}
+#colors-legend {
+    width: 10%;
+    float: left;
+    height: 100%;
+    background: #471818;
+}
+#colors-legend .calendar-type-task {
+    border: solid #fff;
+    border-width: 1px 1px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 3% 5%;
+    padding: 0;
+    color: black;
+}
+#colors-legend .calendar-type-note, #colors-legend .calendar-type-note-shared{
+    height: 50px;
+    width: 37%;
+    margin: 5% 2.5% 5% 7.5%;
+    border-radius: 5px;
+    padding: 0;
+}
+#colors-legend .calendar-toggle-type.type-task {
+    height: 33px;
+    border-radius: 0 5px 5px 0;
+    background: rgb(0, 255, 30);
+    padding: 0;
+    margin: 2% 0;
+    width: 10%;
+    float: left;
+}
+#colors-legend .calendar-toggle-type.type-note {
+    height: 90%;
+    width: 20%;
+    border-radius: 0 5px 5px 0;
+    background: rgb(0, 255, 30);
+    padding: 0;
+    margin: 2.5% 0;
+    float: left;
+}
+.calendar-type-note img,
+.calendar-type-note-shared img {
+    vertical-align: middle;
+    padding: 25% 0;
+}
+.calendar-type-note img {
+    width: 66%;
+    margin-left: 11px;
+}
+.calendar-type-note-shared img {
+    width: 76%;
+    margin-left: 7px;
+}
+#colors-legend .calendar-type-name {
+    font-size: 95%;
+    margin: 1.5%;
+    font-weight: 600;
+    width: 85%;
+    float: right;
+    padding: 7.5% 0 7.5% 2.5%;
+    text-align: left;
+}
+.fc-toolbar {
+    margin-bottom: 0!important;
+}
+.fc-week {
+    height: 97.75px!important;
+}
+.fc-day {
+    background: rgb(248, 248, 248) !important
+}
+.fc-widget-header {
+    background: black !important;
+    color: white !important;
+    height: 24px;
+    line-height: 150% !important;
+    border: 1px solid black !important;
+}
+.fc-time-grid-container {
+    height: 488px !important;
+}
+.fc-widget-content {
+    border-color: rgba(0, 0, 0, 0.55) !important;
+    color: black;
+    font-weight: 500;
+    font-size: 100%;
+}
+
+/* laptop screen 1366x768 */
+@media (min-width: 1360px) and (max-width: 1399px){
+    #title-selector {
+        height: 4.90%;
+    }
+    #commercial-selector {
+        height: 100%;
+    }
+    .fc-toolbar {
+        margin-bottom: 0.25%!important;
+    }
+    #colors-legend {
+        height: 549px;
+    }
+    #calendar-main {
+        height: 551px;
+    }
+    .fc-week {
+        height: 78px !important;
+
+    }
+    .fc-more-popover {
+        top: 217px !important;
+        left: -209px !important;
+        width: 198px !important;
+    }
+    .fc-time-grid-container {
+        height: 392px !important;
+    }
+}
+/* MAC PRO screen 1280*800*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #title-selector {
+        height: 4.85%;
+    }
+    #commercial-selector {
+        height: 100%;
+    }
+    .fc-week {
+        height: 80.5px !important;
+    }
+    .fc-more-popover {
+        top: 219px !important;
+        left: -211px !important;
+        width: 198px !important;
+    }
+    .fc-time-grid-container {
+        height: 406px !important;
+    }
+}

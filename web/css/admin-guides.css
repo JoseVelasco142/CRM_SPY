@@ -1,0 +1,140 @@
+#guide-list-title {
+    padding: 0.5%;
+    font-weight: bolder;
+    text-align: center;
+    background: rgba(60, 0, 0, 0.19);
+    font-variant: all-petite-caps;
+    font-size: 150%;
+}
+#add-guide {
+    padding: 0.425% 0;
+    border-radius: 0;
+    background: black;
+    color: white;
+    font-size: 150%;
+}
+#guide-list {
+    padding: 0;
+    max-height: 625px;
+    background: white;
+    height: 625px;
+    overflow: auto;
+}
+#not-guides {
+    height: 100%;
+    font-weight: bolder;
+    font-variant: all-petite-caps;
+    font-size: 125%;
+    text-align: center;
+    padding: 24% 30%;
+}
+.guide-item {
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+    margin-bottom: 0.25%;
+}
+.guide-line {
+    border-radius: 0;
+    background: rgba(101, 0, 0, 0.17);
+    font-weight: bolder;
+    text-align: left;
+    font-variant: all-petite-caps;
+}
+.guide-info {
+    padding: 0;
+    display: none;
+}
+.guide-info label:first-of-type {
+    padding: 0;
+    margin-bottom: 0;
+}
+.guide-info textarea {
+    height: 350px;
+    padding: 2%;
+    resize: none;
+    border-style: solid;
+    border-width: 0 5px;
+    border-radius: 0;
+    border-color: black;
+    background: lightgrey;
+    font-size: 95%;
+    color: black;
+    font-weight: initial;
+}
+.guide-info .file-list {
+    height: 150px;
+    max-height: 150px;
+    background: rgba(69, 0, 0, 0.31);
+    padding: 1%;
+    overflow: auto;
+}
+.not-files {
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    padding: 5% 0;
+    max-height: 150px;
+    height: 150px;
+}
+.file-item {
+    border-radius: 4px;
+    color: white;
+    font-size: 275%;
+    padding: 0;
+    margin-right: 4%;
+}
+.file-icon {
+    padding: 0;
+}
+.file-icon i {
+    padding-left: 10%;
+}
+.file-download, .file-remove {
+    padding: 6% 0;
+}
+.guide-info .guide-dropzone {
+    border-radius: 0 4px 4px 0;
+    border: 1px solid rgba(0, 0, 255, 0.26);
+    padding: 0.5%;
+    background: rgba(0, 218, 179, 0.1);
+    max-height: 150px;
+    overflow: auto;
+}
+.dz-default.dz-message {
+    margin: 0 !important;
+    padding: 15% !important;
+    font-weight: bolder !important;
+}
+.guide-save {
+    position: absolute;
+    left: 96%;
+    top: 0;
+    z-index: 999;
+    padding: 0.25% 0.25% 1% 1.5% !important;
+    font-size: 181%;
+    border-radius: 0 0 0 111%;
+}
+.delete-guide {
+    border-radius: 0;
+}
+
+@media (min-width: 1360px) and (max-width: 1399px) {
+    #guide-list {
+        height: 500px;
+        max-height: 500px;
+    }
+    .file-item {
+        font-size: 250%;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #guide-list {
+        height: 515px;
+        max-height: 515px;
+    }
+    .file-item {
+        font-size: 250%;
+    }
+}
+

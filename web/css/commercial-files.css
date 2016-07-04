@@ -1,0 +1,54 @@
+#file-list-title {
+    background: rgba(74, 1, 1, 0.35);
+    font-weight: bolder;
+    text-align: center;
+    font-variant: all-petite-caps;
+    font-size: 125%;
+    padding: 1%;
+}
+#file-list-commercials {
+    height: 78%;
+    padding: 1%;
+    background: white;
+}
+.file-item {
+    border-radius: 4px;
+    color: white;
+    font-size: 275%;
+    padding: 0;
+    margin-right: 4%;
+}
+.file-icon {
+    padding: 0;
+    color: black;
+}
+.file-icon i {
+    padding-left: 10%;
+}
+.file-download, .file-remove {
+    padding: 6% 0;
+}
+#not-files-commercial {
+    padding: 24.5% 0;
+    font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+}
+#file-dropzone {
+    height: 78.25%;
+    background: rgba(145, 228, 255, 0.45);
+    padding: 0;
+}
+.dz-default {
+    font-weight: bolder!important;
+    margin-top: 140%!important;
+}
+
+@media (min-width: 1280px) and (max-width: 1399px) {
+    #file-list-title {
+        padding: 0.5%;
+    }
+    .dz-default {
+        margin-top: 120% !important;
+    }
+}

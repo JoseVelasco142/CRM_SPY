@@ -1,0 +1,312 @@
+/* office screen 1440*900  */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* layout main */
+#layout-content {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.row {
+    margin: 4.825% 0;
+    height: 100%;
+}
+
+/* Vertical menu */
+#accordion {
+    list-style: none;
+    height: 100%;
+    background: #471818;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+#accordion::-webkit-scrollbar {
+    width: 0 !important
+}
+
+#accordion .link {
+    cursor: pointer;
+    display: block;
+    color: #DEDEDE;
+    font-size: 115%;
+    font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 6% 28%;
+    background: #471818;
+    text-align: left;
+    line-height: 35px;
+}
+
+#accordion .link:hover {
+    text-decoration: none;
+}
+
+#accordion li:last-child .link {
+    border-bottom: 0;
+}
+
+#accordion li i {
+    position: absolute;
+    left: 10px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: black;
+    font-size: 215%;
+}
+
+#accordion li i.fa-chevron-down {
+    right: 18px;
+    left: auto;
+    font-size: 16px;
+    top: 40%;
+    color: white;
+}
+
+#accordion li.open .link {
+    color: rgba(0, 0, 0, 0.98);
+}
+
+#accordion li.open i {
+    color: #ffffff;
+}
+
+#accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.submenu {
+    display: none;
+    background: #E7E7E7;
+    font-size: 100%;
+    list-style: none;
+}
+
+.submenu li {
+    border-bottom: 1px solid #4b4a5e;
+}
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #060000;
+    padding: 12px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.submenu li a i {
+    color: black !important;
+    z-index: 999 !important;
+    left: -20% !important;
+    position: relative !important;
+    width: 0;
+    float: left;
+}
+
+.submenu li a i.fa {
+    font-size: 125% !important;
+    margin-top: 1%;
+}
+
+/* top bar */
+#top-bar {
+    height: 8.75%;
+    border-bottom: 1px solid white;
+    border-radius: 0 !important;
+    background: #471818;
+    margin-bottom: 0 !important;
+}
+
+#logo {
+
+}
+
+#logo .link {
+    height: 8%;
+    padding: 10%;
+}
+
+#logo .link img {
+    width: 87%;
+    margin: -3% auto 0 auto;
+}
+
+/* shortcuts actions / account button */
+#account,
+#shortcuts {
+    padding: 0;
+    margin-top: 1.25%;
+}
+
+#shortcuts button .fa-plus {
+    font-size: 150%;
+    margin-right: 18%;
+}
+
+#account button {
+    padding: 2.5% 9%;
+    border-radius: 5px;
+    background: white;
+}
+
+#shortcuts ul,
+#account ul {
+    padding: 0;
+}
+
+#shortcuts li,
+#account li {
+    background: #fff;
+    padding: 5%;
+}
+
+#shortcuts li:hover,
+#account li:hover {
+    box-shadow: 8px 1px 1px 0 #471818;
+
+}
+
+#shortcuts a,
+#account a {
+    color: black;
+    font-size: 105%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#shortcuts a:hover,
+#account a:hover {
+    background: white;
+}
+
+
+/* ONLY ADMIN */
+#new-shared-note i,
+#parse-clients i {
+    top: 27.5%;
+}
+/* main viewer */
+#main-viewer {
+    background: rgba(164, 164, 164, 0.19) none repeat scroll 0 0;
+    padding: 0;
+    float: right;
+    height: 100%;
+}
+
+#main-content {
+    padding: 0;
+    height: 100%;
+}
+
+/* footer */
+.navbar-fixed-bottom {
+    z-index: 10 !important;
+    background: black;
+}
+
+#ftr {
+    background: black;
+    height: 54px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+#ftr a {
+    color: white;
+    font-size: 111%;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0;
+    text-decoration: none;
+}
+#notes-shared {
+    background: orange;
+    padding: 6% 10%;
+}
+#notes-shared:hover {
+    background: orange;
+}
+
+/* laptop screen 1366*768  */
+@media (min-width: 1360px) and (max-width: 1399px) {
+    .row {
+        margin: 3.825% 0;
+        height: 100%;
+    }
+    #account,
+    #shortcuts {
+        margin-top: 0.75%;
+    }
+
+    #top-bar {
+        height: 8.885%;
+    }
+    #accordion .link {
+        line-height: 40.5px;
+    }
+}
+
+/* MAC PRO screen 1280*800*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .row {
+        margin: 3.825% 0;
+        height: 100%;
+    }
+    #account,
+    #shortcuts {
+        margin-top: 0.75%;
+    }
+
+    #top-bar {
+        height: 8.25%;
+    }
+
+    #accordion .link {
+        line-height: 40.5px;
+    }
+}
+
+@media (max-width: 767px) {
+    #accordion {
+        width: 16.65%;
+    }
+    #accordion .link {
+        height: 50px;
+        padding: 3% 6%;
+        font-size: 100%;
+    }
+    #accordion .link i {
+        top: 20%;
+    }
+    #accordion .link .submenu {
+        padding: 0;
+        padding-left: 22.5%;
+    }
+    #accordion .link .submenu li a {
+        padding: 12% 0;
+    }
+    #accordion .link .submenu li a.double {
+        padding: 4% 0;
+    }
+}

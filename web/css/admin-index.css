@@ -1,0 +1,255 @@
+/* top bar selector and total counters  */
+#global-info {
+    height: 5%;
+    background: rgba(57, 0, 0, 0.52);
+    padding: 0;
+}
+#commercial-list {
+    padding: 0.25% 0;
+}
+#global-info .counter-info {
+    font-weight: bolder;
+    padding: 0.5%;
+}
+.counter-info .counter-title {
+    padding: 1.5% 1.5% 0 0 !important;
+    text-align: right;
+}
+.counter-info .counter-number {
+    padding: 0.5% 3% !important;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 7%;
+    font-size: 125%;
+    width: 14%;
+}
+
+/* commercial data*/
+/* commercial info / counters / titles*/
+#global-commercial {
+    height: 79.5%;
+    padding: 0;
+}
+#commercial-info {
+    padding: 1.5% 2.5%;
+    background: white;
+    height: 90px;
+}
+
+#commercial-info .commercial-title,
+#commercial-info .commercial-data {
+    font-weight: bolder;
+    padding: 1%;
+    height: 30px;
+    line-height: 25px;
+}
+#commercial-info .commercial-title {
+    font-weight: bolder;
+}
+/* statistics */
+#commercial-statistics {
+    padding: 0;
+    height: 535px;
+}
+#commercial-statistics #statistics-filter {
+    height: 40px;
+    background: rgba(39, 0, 0, 0.35);
+    padding: 0;
+    padding-top: 0.5%;
+}
+#today-statistics {
+    font-weight: bolder;
+}
+#statistics-filter .col-xs-8 {
+    padding: 0;
+}
+#today-statistics,
+#search-for-date {
+    float: left;
+    width: 16.5%;
+}
+#commercial-statistics #task-graphic {
+    height: 250px;
+    padding: 0;
+    border-style: solid;
+    border-width: 0 2px 1px 0;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+#commercial-statistics #task-graphic-total {
+    height: 250px;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px 2px 0 0;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* task viewer */
+#commercial-task-titles {
+
+}
+#commercial-task-titles .col-xs-6 {
+    padding: 0;
+}
+#commercial-task-titles .col-xs-6 .commercial-counter-title {
+
+}
+#commercial-task-titles .col-xs-6 .commercial-counter {
+
+}
+
+
+/* donuts */
+.donut-block {
+    border: solid rgba(0, 0, 0, 0.1);
+    height: 265px;
+    background: lightgrey;
+    border-width: 0 1px;
+    padding: 0;
+}
+.donut-options {
+    left: 0;
+    padding: 0;
+}
+.donut-showing {
+    padding: 1.65% 0;
+    text-align: center;
+    background: rgba(0, 246, 255, 0.2) none repeat scroll 0 0;
+}
+.donut {
+    height: 230px;
+    padding: 0;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* task lists */
+.list-title {
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 115%;
+    padding: 0.5%;
+}
+.col-xs-6.list-title {
+    border-right: 1px solid white;
+}
+
+#opened-list,
+#closed-list {
+    padding: 0;
+    background: white;
+    height: 328px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#opened-list {
+    border-right: 1px solid black;
+}
+.task-line {
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    background: rgba(68, 0, 0, 0.18);
+}
+.task-info label {
+    padding: 1% 0;
+    text-align: center;
+    background: white;
+    margin-bottom: 0;
+}
+.task-subject {
+    padding: 1%;
+    background: #dee0de;
+    font-size: 95%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.38);
+    border-width: 0 0 2px 1px;
+}
+.task-line:hover {
+    background: rgb(255, 255, 255)
+}
+.task-time {
+    font-size: 105%;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.15%;
+}
+.task-type {
+    text-align: center;
+    font-weight: 600;
+    font-size: 105%;
+    padding: 1.15%;
+}
+.task-client {
+    font-size: 100%;
+    padding: 1.15%;
+}
+.task-expand {
+    padding: 34% 60%;
+    border-radius: 1px;
+}
+.task-info {
+    display: none;
+    height: 225px;
+    padding: 0;
+    border: solid;
+    border-color: rgba(83, 0, 0, 0.52);
+    border-width: 1px 2px 5px 2px;
+    border-top-color: rgba(0, 0, 0, 0.42);
+}
+.task-description {
+    padding: 2.5%;
+    font-size: 95%;
+    background: rgb(242, 242, 242);
+    height: 86%;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 48, 255, 0.1);
+}
+.task-report-title {
+    background: black !important;
+    color: white !important;
+}
+.task-report {
+    height: 71.5%;
+    resize: none;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid rgba(0, 0, 255, 0.21);
+}
+.empty-list {
+    height: 325px;
+    padding: 24.5%;
+    font-weight: bolder;
+    text-align: center;
+    background: rgba(176, 141, 141, 0.18);
+}
+
+@media (min-width: 1360px) and (max-width: 1399px) {
+    #global-info {
+        height: 6%;
+        padding: 0.05% 0;
+    }
+    #commercial-info {
+        padding: 0.5% 2.5%;
+        height: 69px;
+    }
+    #commercial-statistics #task-graphic {
+        height: 195px;
+    }
+    #commercial-statistics #task-graphic-total {
+        height: 200px;
+    }
+    #opened-list, #closed-list {
+        height: 205px;
+    }
+
+}
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #global-info .counter-info {
+        padding: 0.35%;
+    }
+    #opened-list, #closed-list {
+        height: 224px;
+    }
+}

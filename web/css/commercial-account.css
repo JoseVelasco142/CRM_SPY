@@ -1,0 +1,34 @@
+#account-title {
+    padding: 1%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 125%;
+    font-variant: all-petite-caps;
+    background: rgba(63, 0, 0, 0.24);
+    margin-bottom: 2%;
+}
+.form-group {
+    margin-bottom: 0;
+    height: 55px;
+}
+#commercial-name,
+#commercial-lastname,
+#commercial-email {
+    width: 75%;
+    border-radius: 0 4px 4px 0;
+    background: antiquewhite;
+}
+.form-group label {
+    padding: 0.60% 1%;
+    margin-bottom: 0;
+    text-align: left;
+    font-variant: all-petite-caps;
+    background: rgba(71, 0, 0, 0.2);
+}
+#passwords-form {
+    display: none;
+    padding: 1% 0;
+}
+#passwords-form .form-control {
+    width: 66.333%;
+}

@@ -1,0 +1,71 @@
+/* main body  */
+/* header */
+#massive-header {
+    padding: 1% 2%;
+    background: rgba(63, 0, 0, 0.27) none repeat scroll 0 0;
+}
+/* body */
+#massive-form {
+    padding: 1%;
+    min-height: 560px;
+    max-height: 560px;
+    position: relative;
+    overflow: auto;
+    margin-top: 1%;
+}
+.formLine {
+    margin-bottom: 1%;
+}
+.invalid {
+    color: red;
+    font-weight: bolder;
+    padding: 3.5%;
+}
+#legend-column {
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+#legend-column div {
+    float: left;
+    font-size: 110%;
+    text-align: center;
+    font-weight: 600;
+}
+#lc-1 {
+    margin-right: 2%;
+    width: 22%;
+}
+#lc-2 {
+    width: 14%;
+    margin-right: 2.5%;
+}
+#lc-3 {
+    width: 14%;
+    margin-right: 2.5%;
+}
+#lc-4 {
+    width: 22%;
+}
+
+
+
+/* laptop screen 1366x768 */
+@media (min-width: 1360px) and (max-width: 1399px){
+    #massive-form {
+        min-height: 448px !important;
+        max-height: 448px !important;
+    }
+    #task-text {
+        height: 150px !important;
+    }
+}
+/* MAC PRO screen 1280*800*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #massive-form {
+        min-height: 448px !important;
+        max-height: 448px !important;
+    }
+    #task-text {
+        height: 150px !important;
+    }
+}

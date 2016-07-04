@@ -1,0 +1,44 @@
+#form-parse {
+    padding: 1%;
+    background: rgba(69, 1, 1, 0.35);
+}
+#table-header {
+    background: rgba(65, 4, 4, 0.3);
+    padding: 0.5%;
+    font-weight: bolder;
+    font-size: 125%;
+}
+#client-list {
+    max-height: 524px;
+    overflow: auto;
+    background: white;
+    padding: 0;
+    min-height: 524px;
+    height: 524px;
+}
+.client-item {
+    padding: 1%;
+    background: lightgray;
+    margin-bottom: 0.5%;
+}
+
+@media (min-width: 1360px) and (max-width: 1399px) {
+    #parse-form .col-xs-12:first-of-type {
+        padding: 0;
+    }
+    #parse-form .col-xs-12 {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #parse-form .col-xs-12:first-of-type {
+        padding: 0;
+    }
+    #parse-form .col-xs-12 {
+        padding: 0;
+    }
+    #parse-form .col-xs-12 .col-xs-6 {
+        padding: 0;
+    }
+}

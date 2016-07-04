@@ -1,0 +1,326 @@
+/* office screen 1440*900*/
+/* filter list */
+#task-filters-col {
+    background: rgb(71, 24, 24) none repeat scroll 0 0;
+    height: 100%;
+}
+#task-filters div {
+    padding: 0 3%;
+}
+#task-filters-title {
+    padding: 6% 1% !important;
+    height: 37px;
+    color: white;
+    text-align: center;
+    font-variant: petite-caps;
+    font-weight: bolder;
+    font-size: 125%;
+    margin: 12% 0;
+}
+#search-for-date {
+    height: 34.25px;
+    width: 34px;
+    padding: .5% 0 !important;
+    font-size: 125%;
+    margin-left: 5%;
+}
+#clear-filters {
+    padding: 3% 21% !important;
+    font-weight: bolder;
+    margin-bottom: 85%;
+}
+/* task list */
+/* header */
+#task-main {
+    padding: 0;
+}
+#task-main-title {
+    padding: 1% 1.5%;
+    font-weight: bolder;
+    font-size: 146%;
+    background: rgba(75, 0, 0, 0.43) none repeat scroll 0 0;
+}
+#task-counter {
+    float: right;
+    color: black;
+    font-size: 90% !important;
+    width: 20%;
+}
+#task-counter span {
+    color: black;
+    background: white;
+    padding: 1.5% 3%;
+    border-radius: 3px;
+    margin-right: 8.5%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 4px 1px 0px rgba(0, 0, 0, 0.78);
+}
+#task-list-view {
+    padding: 0;
+    height: 600px;
+}
+/* item */
+.task-list-item {
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.32);
+    background: white;
+}
+/* visible line */
+.task-list-item .task-list-type {
+    height: 40.075px;
+    text-align: center;
+    font-weight: 600;
+    padding: 1% 0;
+}
+.task-list-item .task-list-subject {
+    font-weight: bolder;
+    padding: 1% 2%;
+    height: 40px;
+}
+.task-list-item .task-list-actions {
+    padding: 0 1.5%;
+}
+.task-list-actions .task-list-expand {
+    padding: 1.25% 4.5%;
+    height: 40px !important;
+}
+.task-list-expand .btn {
+    padding: 9.5% 45%;
+}
+.task-list-time {
+    height: 40px !important;
+    font-weight: 600;
+    padding: 3% 10% 0 25% !important;
+    font-size: 102% !important;
+}
+/* data expanded */
+.task-list-expanded {
+    padding: 0;
+    height: 175px;
+    background: rgba(3, 109, 132, 0.12) none repeat scroll 0 0;
+}
+.task-detail-close {
+    display: none;
+}
+/* client info */
+.task-list-expanded .task-client-data {
+    height: 165px;
+    margin: 0.5%;
+    background: white none repeat scroll 0 0;
+    border-radius: 4px;
+    border: solid rgba(0, 0, 0, 0.65);
+    border-width: 0 0 1px 2px;
+    padding: 0;
+}
+/* client */
+.client-name-title,
+.client-name {
+    max-height: 50px;
+    height: 50px;
+}
+.client-name-title {
+    font-weight: bolder;
+    font-size: 110%;
+    padding: 0 4.5%;
+    background: lightgrey;
+    line-height: 70px;
+    font-variant: small-caps;
+}
+.client-name {
+    padding: 0 2%;
+    background: rgba(93, 4, 4, 0.22);
+    line-height: 70px;
+    border-radius: 0 4px 0 0;
+}
+/* contact */
+.contact-name-title,
+.contact-phone-title,
+.contact-mail-title,
+.contact-name,
+.contact-phone,
+.contact-mail {
+    height: 38px;
+}
+.contact-name-title,
+.contact-phone-title,
+.contact-mail-title {
+    font-variant: small-caps;
+    padding: 2.5% 1%;
+    background: lightgrey;
+    font-weight: bolder;
+    text-align: right;
+}
+.contact-name,
+.contact-phone,
+.contact-mail {
+    padding: 2.5% 2%;
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.48);
+    font-size: 85%;
+}
+/* expanded actions */
+.task-list-expanded-actions {
+    margin: 0.5% 0;
+    padding: 0 1.5%;
+    height: 165px;
+}
+.task-list-expanded-actions .btn {
+    height: 41.5px;
+    width: 100%;
+}
+.task-list-expanded-actions .btn i {
+    font-size: 130%;
+    margin-top: 16%;
+}
+/* task-description */
+.task-list-description {
+    width: 57%;
+    height: 166px;
+    margin: 0.5% 0;
+    padding: 0;
+}
+.task-list-description textarea {
+    width: 90%;
+    height: 165px;
+    resize: none;
+    font-size: 90%;
+    background: lightgrey;
+    float: left;
+}
+.task-list-description .task-update-text {
+    width: 10%;
+    height: 100%;
+    font-size: 150%;
+    color: black;
+    padding: 12% 0;
+    background: rgba(0, 0, 255, 0.3);
+}
+/* task optional views  */
+.optional-task-view {
+    background: white;
+    margin: 0.5% 0;
+    height: 163px;
+    border-radius: 5px;
+    width: 57%;
+}
+.task-list-files {
+    padding: 1.5%;
+    border-style: solid;
+    border-width: 1px 1px 1px 2px;
+    border-color: rgba(0, 0, 0, 0.17) rgba(0, 0, 0, 0.19) rgba(0, 0, 0, 0.54) rgba(0, 0, 0, 0.54);
+}
+.task-list-files .task-file-item {
+    width: 50px;
+    height: 45px;
+    font-size: 280%;
+    color: black;
+    margin-right: 1.5%;
+    float: left;
+}
+.task-list-upload {
+    padding: 0;
+    border: 0 !important;
+}
+.task-list-upload .dropzone {
+    width: 100%;
+    float: left;
+    height: 77% !important;
+    min-height: 77% !important;
+    padding: 1%;
+    background: rgba(183, 228, 252, 0.61) none repeat scroll 0 0;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    overflow-y: auto;
+}
+.task-list-upload .dropzone .dz-default {
+    padding: 3.5% 0 0;
+    font-weight: bolder;
+    font-size: 98%;
+}
+.task-list-report {
+    padding: 0;
+}
+.task-list-report textarea {
+    width: 90%;
+    height: 100%;
+    resize: none;
+    float: left;
+}
+.task-list-report .task-list-finalize {
+    width: 10%;
+    height: 100%;
+    font-size: 130%;
+    padding: 12% 0;
+    background: rgba(0, 0, 255, 0.28) none repeat scroll 0 0;
+    border-radius: 0 3px 3px 0;
+}
+#task-pagers {
+    top: 18%;
+    left: 83%;
+    z-index: 99999;
+    position: absolute;
+    width: 17%;
+    padding: 0;
+}
+
+/* laptop screen 1366x768*/
+@media (min-width: 1360px) and (max-width: 1399px){
+    #task-main-title {
+        padding: 0.5% 1.5%;
+    }
+    #task-list-view {
+        padding: 0;
+        height: 505px;
+    }
+    #task-filters {
+        height: 549px;
+        padding: 0 1%;
+    }
+    #task-filters-col {
+        background: rgb(71, 24, 24) none repeat scroll 0 0;
+        height: 83%;
+        padding: 0 0.5%;
+    }
+    #task-filters-title {
+        margin: 4% 0;
+    }
+    #clear-filters {
+        margin-bottom: 41%;
+    }
+    #search-for-date {
+        height: 34px;
+        margin-left: 4.5%;
+    }
+}
+/* MAC PRO screen 1280*800*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #task-main-title {
+        padding: 0.5% 1.5%;
+        font-size: 135%;
+    }
+    #task-list-view {
+        padding: 0;
+        height: 520px;
+    }
+    #task-filters-col {
+        height: 83.5%;
+    }
+    #task-filters {
+        height: 549px;
+        padding: 0 1%;
+    }
+    #task-filters-title {
+        margin: 4% 0;
+    }
+    #clear-filters {
+        margin-bottom: 41%;
+    }
+    #search-for-date {
+        height: 34px;
+        margin-left: 1.5%;
+    }
+    .task-list-time {
+        padding: 4.5% 10% 0 25% !important;
+        font-size: 87% !important;
+    }
+}

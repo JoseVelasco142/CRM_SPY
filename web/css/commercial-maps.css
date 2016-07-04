@@ -1,0 +1,117 @@
+#map {
+    height: 400px;
+    padding: 0;
+}
+#box {
+    height: 266px;
+    max-height: 266px;
+    padding: 0;
+}
+#find-route {
+    border-radius: 0;
+    color: white;
+    background: black;
+    font-weight: bolder;
+    font-variant: all-petite-caps;
+    padding: 7.5%;
+}
+#pointers {
+    height: 135px;
+    padding: 0;
+    background: rgba(60, 0, 0, 0.25) none repeat scroll 0 0;
+}
+#pointers .form-group {
+    margin-bottom: 0;
+    padding: 0;
+}
+#pointers .form-group label {
+    padding: 0;
+}
+#exit-pointers-title {
+    padding: 1%;
+    text-align: center;
+    font-weight: 600;
+    font-variant: all-petite-caps;
+}
+#exit-point,
+#destination-point {
+    font-size: 80%;
+    font-weight: lighter;
+}
+#exit-home,
+#destination-multiple {
+    padding: 3%;
+}
+#clients-list {
+    background: white;
+    height: 479px;
+    border-left: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 0;
+}
+.client-item {
+    padding: 0;
+    height: 33px;
+}
+.client-add {
+    padding: 3% 0;
+    border-radius: 0;
+    width: 15%;
+}
+.client-name {
+    width: 85%;
+    padding: 3% 1%;
+    background: rgba(209, 209, 209, 0.55);
+}
+.tooltip {
+    position: fixed;
+}
+.on-route {
+    background: forestgreen;
+}
+
+@media (min-width: 1360px) and (max-width: 1399px) {
+    #map {
+        height: 325px;
+    }
+    #box {
+        height: 200px;
+        max-height: 200px;
+    }
+    #exit-home,
+    #destination-multiple {
+        padding: 2.80% 3%;
+    }
+    #find-route {
+        padding: 4.5%;
+    }
+    #pointers .form-control {
+        padding: 2%;
+        height: 32px;
+    }
+    #clients-list {
+        height: 369px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1359px){
+    #map {
+        height: 325px;
+    }
+    #box {
+        height: 230px;
+        max-height: 230px;
+    }
+    #exit-home,
+    #destination-multiple {
+        padding: 2.80% 3%;
+    }
+    #find-route {
+        padding: 4.5%;
+    }
+    #pointers .form-control {
+        padding: 2%;
+        height: 32px;
+    }
+    #clients-list {
+        height: 382.5px;
+    }
+}

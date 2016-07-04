@@ -1,0 +1,368 @@
+/* common style form modals on multiple views */
+.ajs-content p {
+    font-weight: 600!important;
+}
+.ajs-input {
+    margin-top: 2.5%!important;
+}
+.type-fail {
+    box-shadow: 0 0 6px 2px red;
+}
+
+/* new task modal form */
+#modal-new-task-form .form-group {
+    padding: 0!important;
+}
+.form-group label[for="task-client"],
+.form-group label[for="task-subject"]{
+    padding: 1.675% !important;
+    background: rgba(56, 1, 1, 0.38) none repeat scroll 0 0;
+    width: 25%;
+    border-radius: 3px 0 0 3px;
+}
+#task-client ,
+#task-subject {
+    padding: 1.675% !important;
+    width: 75%;
+    border-radius: 0 3px 3px 0;
+    float: right;
+}
+#task-type {
+    padding: 0!important;
+    width: 32% !important;
+    float: left;
+}
+#task-type button {
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    background: #4d0505 none repeat scroll 0 0;
+}
+#task-type ul li {
+    height: 33px;
+    padding: 5% 2%;
+}
+#task-type-selected {
+    width: 66.5%;
+    float: right;
+    padding: 1.5%;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 33px;
+    border: solid #a20808;
+    border-width: 0;
+    font-weight: bolder;
+}
+#task-text {
+    resize: none;
+    height: 195px;
+}
+#task-alert-date,
+#task-alert-time {
+    width: 30% !important;
+}
+#task-alert-date {
+    margin-left: 12.5%;
+    margin-right: 2.5%;
+}
+#modal-new-task-form .fa-clock-o {
+    float: left;
+    font-size: 175%;
+    padding: 1.45% 5.25% 0.85%;
+    color: black;
+    background: rgba(56, 1, 1, 0.38) none repeat scroll 0 0;
+    width: 15.5%;
+}
+#new-task-dropzone {
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 115%;
+    margin: 0 !important;
+    background: lightblue;
+    border-radius: 0 0 7px 7px;
+    border: solid rgba(0, 0, 0, 0.46);
+    border-width: 0 0 1px 3px;
+}
+#dropzone-title {
+    padding: 1.5%;
+    text-align: center;
+    background: rgba(56, 1, 1, 0.38) none repeat scroll 0 0;
+    font-weight: bolder;
+}
+#new-task-dropzone .dz-default {
+    padding: 10.5% 0 0;
+    font-weight: bolder;
+    font-size: 98%;
+}
+
+/* note viewer modal */
+#note-viewer {
+    background: rgba(60, 8, 8, 0.39) none repeat scroll 0 0;
+}
+#note-viewer-date {
+    padding: 2%;
+    font-weight: bolder;
+    color: black;
+    background: rgba(86, 0, 0, 0.3) none repeat scroll 0 0;
+    text-align: center;
+}
+#note-viewer-text {
+    min-height: 150px;
+    padding: 2%;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.49);
+    border-width: 0 0 1px 2px;
+    background: #dbdbdb;
+}
+
+/* task modal viewer */
+#task-viewer {
+    padding: 0;
+}
+#task-header {
+    padding: 0;
+    border: solid black;
+    border-width: 1px 0;
+    background: rgba(51, 0, 0, 0.37);
+    height: 89px;
+}
+#task-header #task-type {
+    font-weight: bolder;
+    text-align: center;
+    height: 35px;
+    padding: 1.5% !important;
+    width: 25% !important;
+    float: left;
+    color: black;
+}
+#task-header #task-client {
+    float: right;
+    width: 75%;
+    height: 35px;
+    color: black;
+    text-align: left;
+    padding: 1.5% !important;
+    font-weight: bolder;
+    background: white;
+    border-left: 5px solid black;
+}
+#task-header #task-time {
+    width: 25%;
+    background: #a6dcff;
+    height: 52px;
+    padding: 1%;
+    float: left;
+}
+#task-header #task-time .date {
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+#task-header #task-time .time {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-size: 125%;
+}
+#task-header #task-subject {
+    float: right;
+    width: 75%;
+    height: 52px;
+    color: black;
+    text-align: left;
+    padding: 1.5% !important;
+    font-weight: bolder;
+    background: white;
+    border-left: 5px solid black;
+    border-top: 3px solid #5d0000;
+    line-height: 35px;
+}
+#task-body {
+    float: left;
+    width: 90%;
+    height: 295px;
+    background: rgba(71, 24, 24, 0.61);
+}
+
+#task-description,
+#file-list,
+#upload-file,
+#task-report {
+    width: 95%;
+    margin: 1.5% 2.5%;
+    height: 278.5px;
+    padding: 2.5%;
+
+}
+
+#task-description {
+    resize: none;
+    background: lightgrey;
+}
+
+#file-list {
+    background: white;
+    border-radius: 3px;
+}
+#file-list .file-item {
+    height: 50px;
+    width: 35px;
+    float: left;
+    margin-right: 2%;
+    font-size: 287%;
+    color: black;
+}
+#not-files {
+    padding: 28.5% 0;
+    font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+}
+
+#upload-file .dz-default {
+    padding: 29% 5%;
+    font-weight: bolder;
+    font-size: 115%;
+    margin: 0 !important;
+    background: lightblue;
+    border-radius: 6px;
+    border: solid rgba(0, 0, 0, 0.76);
+    border-width: 3px 0 0 3px;
+}
+
+#task-report {
+    width: 427px;
+    height: 277px;
+    resize: none;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.75);
+    border-width: 0 0 2px 3px;
+}
+
+#task-action {
+    width: 10%;
+    float: right;
+    padding: 1.5% 0;
+    background: rgba(71, 24, 24, 0.61);
+    height: 295px;
+}
+#task-action div {
+    width: 80% !important;
+    height: 65px !important;
+    margin-bottom: 12.5%;
+    padding: 26% 0 !important;
+    font-size: 160% !important;
+}
+
+/* modal form new note */
+#new-note-short-description {
+    padding: 0;
+}
+#new-note-short-description label {
+    width: 25%;
+    text-align: center;
+    padding: 1.65% 0;
+    background: rgba(86, 2, 2, 0.32);
+}
+#new-note-short-description input {
+    width: 75% !important;
+    border-radius: 0 3px 3px 0 !important;
+}
+#new-note-description textarea {
+    width: 100% !important;
+    resize: none;
+    height: 203px !important;
+}
+#note-datetime {
+    margin-top: 5%;
+    height: 40px;
+    padding: 0 19%;
+}
+#note-date {
+    float:left;
+    width: 40%;
+}
+#note-time {
+    float:right;
+    width: 40%;
+}
+
+/* create commercial form */
+#modal-new-commercial {
+    height: 300px;
+}
+#modal-new-commercial label {
+    width: 25% !important;
+    float: left;
+    background: rgba(80, 0, 0, 0.36);
+    text-align: center;
+    height: 34px;
+    padding: 1.5%;
+
+}
+#modal-new-commercial .form-control {
+    width: 75% !important;
+    float: right;
+    border-radius: 0 4px 4px 0;
+}
+#modal-new-commercial label[for="commercial-re-pwd"] {
+    height: 53px;
+}
+#modal-new-commercial #commercial-re-pwd {
+    box-shadow: 0 19px 0 0 rgba(77, 0, 0, 0.35);
+    border-radius: 0 4px 0 0;
+}
+#modal-new-commercial #commercial-error {
+    background: rgba(78, 0, 0, 0.4) none repeat scroll 0 0;
+    padding: 2%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* create guide */
+.short-desc-title {
+    padding: 2% 1.5%;
+    background: rgba(48, 0, 0, 0.23);
+    font-weight: bolder;
+    font-size: 95%;
+}
+#short_description {
+    width: 66.333%;
+    border-radius:0 4px 4px 0;
+}
+#guide-text {
+    border-radius: 0;
+    resize: none;
+    height: 400px;
+}
+.new-guide-dropzone {
+    background: rgba(178, 222, 237, 0.66);
+}
+
+/* commercials list */
+#commercial-modal-list {
+    background: rgba(65, 0, 0, 0.32) none repeat scroll 0 0;
+    padding: 2% 0px;
+    border-radius: 4px;
+}
+.commercial-item {
+    padding: 1%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+    background: #e7e7e7;
+}
+.commercial-item:hover {
+    background: white;
+    border: solid rgba(0, 0, 0, 0.61);
+    border-width: 0 2px;
+}
+.commercial-item .col-xs-6:first-of-type {
+    font-weight: bolder;
+}
+.commercial-item .col-xs-6 {
+    font-size: 95%;
+}
+.commercial-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 105%;
+}

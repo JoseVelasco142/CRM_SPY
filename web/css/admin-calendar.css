@@ -1,0 +1,68 @@
+/* commercial selector */
+#title-selector {
+    background: rgba(116, 5, 5, 0.44);
+}
+
+/* color legend */
+#legend-color {
+    padding: 0;
+}
+.task-type {
+    width: 12%;
+    float: left;
+    font-weight: bolder;
+    padding: 0.75% 0;
+    text-align: center;
+}
+.task-type.service-tec {
+    width: 15% !important;
+}
+.task-type.courtesy-call {
+    width: 25% !important;
+}
+
+/* calendar */
+#admin-calendar {
+    padding: 0.5% 2%;
+    max-height: 80%;
+}
+.fc-head {
+    color: white !important;
+    background: black !important;
+}
+.fc-week {
+    height: 91px !important;
+}
+.fc-day {
+    border-color: rgba(0, 0, 0, 0.28) !important;
+}
+.fc-more-popover {
+    top: 53% !important;
+    left: -23% !important;
+    width: 20.75% !important;
+}
+.fc-widget-header {
+    background: black!important;
+    color: white !important;
+}
+
+/* task viewer */
+.task-title {
+    text-align: left;
+    font-weight: bolder;
+    padding: 1% 0 1% 1%;
+    background: rgba(65, 0, 0, 0.43);
+    font-variant: all-petite-caps;
+}
+.task-client,
+.task-subject,
+.task-datetime,
+.task-type-name {
+    padding: 1% 0 1% 1.5%;
+    font-weight: 600;
+    margin-bottom: 1.5%;
+}
+.task-description {
+    resize: none;
+    height: 250px !important;
+}

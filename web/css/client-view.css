@@ -1,0 +1,464 @@
+/* office monitor 1440*900*/
+#client-header {
+    padding: 0;
+    height: 65px;
+}
+#client-header #client-name {
+    height: 45px;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 130%;
+    font-variant: all-petite-caps;
+    background: rgba(59, 0, 0, 0.41);
+    line-height: 65px;
+}
+#client-name #client-disc {
+    padding: 0;
+    width: 3%;
+    float: left;
+    height: 45px;
+    margin-right: 2.5%;
+}
+/* actions */
+#client-header #client-actions {
+    height: 45px;
+    background: black;
+}
+#client-actions .client-action {
+    height: 82%;
+    width: 22%;
+    margin: 1.5% 1.5% 0;
+    padding: 0;
+}
+#client-actions .client-action i {
+    font-size: 150%;
+    padding: 25%;
+}
+#client-actions .client-action img {
+    width: 65%;
+    margin: 17.5%;
+}
+.added {
+    background: #14802d;
+}
+/* contacts */
+#contacts-list {
+    height: 185px;
+    background: white none repeat scroll 0 0;
+    border-radius: 5px 0 0 0;
+    padding: 0.5%;
+    border-style: solid;
+    border-width: 0 0 1px 2px;
+    border-color: rgba(0, 0, 0, 0.34);
+}
+#contacts-list .contact-item {
+    height: 50px;
+    border-radius: 5px 5px 22%;
+    background: url("../img/contact-item.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    padding: 0;
+    width: 49px;
+}
+#contacts-list .contact_main {
+    border-bottom: 3px solid red;
+    border-right: 3px solid black;
+}
+.popover {
+    width: 400px!important;
+}
+.popover-title {
+    text-align: center;
+    font-weight: 600;
+    background: #967474;
+    color: black;
+}
+.popover-content {
+    padding: 6px 11px;
+    height: 85px;
+}
+.popover-client-mail {
+    font-size: 78%;
+    padding: 1% 0 !important;
+}
+/* classification / state */
+#classification-state {
+    height: 185px;
+    background: rgba(59, 0, 0, 0.41);
+    padding: 0;
+    border-style: solid;
+    border-width: 0 1px;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+/* classification*/
+#classification {
+    padding: 5.5% 2.5%;
+    height: 50%;
+}
+.classification-group {
+    padding: 0;
+}
+.classification-group label {
+    font-variant: all-petite-caps;
+}
+/* state */
+#state {
+    height: 50%;
+    background: white;
+    padding: 5%;
+    border-style: solid;
+    border-width: 0 4px 1px;
+    border-color: rgba(0, 0, 0, 0.32);
+}
+#state .col-xs-9 {
+    padding: 3.5%;
+    font-weight: bolder;
+    font-size: 125%!important;
+    text-align: right;
+}
+
+/* location */
+#location {
+    padding: 0;
+    float: right;
+}
+#location #false-client-map {
+    height: 280px;
+}
+#full-address {
+    font-weight: bolder;
+    font-size: 95%;
+    padding: 1.75% 1%;
+    background: rgba(59, 0, 0, 0.41);
+}
+#location #client-map {
+    height: 245px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0;
+}
+
+/* task-list */
+#tasks-list-title {
+    padding: 0.5% 0;
+    text-align: center;
+    font-weight: bolder;
+    font-variant: all-petite-caps;
+    font-size: 135%;
+    background: rgba(59, 0, 0, 0.41);
+    margin-top: 1px;
+}
+
+/* contact form */
+#contact-form label {
+    padding: 1% 1%;
+    background: rgba(71, 0, 0, 0.3);
+    height: 34px;
+    text-align: center;
+    line-height: 32px;
+}
+#contact-form .form-control {
+    width: 75%;
+    border-radius: 0 4px 4px 0;
+}
+#contact-error {
+    padding: 1.5%;
+    margin-bottom: 3%;
+    border-radius: 4px;
+}
+#contact-position {
+    width: 65% !important;
+    float: left;
+}
+#add-position {
+    float: right;
+    padding: 1.6% 3.292%;
+}
+.set-as-contact-main {
+    position: absolute;
+    left: 85.25%;
+    top: 0;
+    padding: 1.90% 4.5%;
+    border-radius: 0 5px 0 0;
+}
+
+/* task items */
+#tasks-list {
+    padding: 0;
+    border-right: 1px solid white;
+    height: 315px;
+    max-height: 315px;
+}
+#tasks-list #not-tasks {
+    height: 310px;
+    background: white none repeat scroll 0 0;
+    font-weight: bolder;
+    font-size: 125%;
+    padding: 21% 34%;
+}
+.task-item {
+    height: 125px;
+    border-radius: 5px;
+    background: white;
+    padding: 0;
+}
+.task-type {
+    padding: 9% 0;
+    text-align: center;
+    font-size: 87%;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    color: black;
+}
+.task-state {
+    font-size: 175%;
+    background-color: #fff;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    cursor: help;
+    border: solid #ccc;
+    border-width: 0 1px 1px 0;
+}
+.task-state .fa-bullseye {
+    color: rgb(255, 144, 0);
+}
+.task-state .fa-check {
+    color: #00d100;
+}
+.task-datetime {
+    border-right: 1px solid #ccc;
+    padding: 0;
+}
+.task-datetime-title {
+    padding: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 180%;
+    margin: 7.5% 0;
+}
+.task-datetime-time {
+    font-weight: 600;
+    font-size: 110%;
+    margin: 4.5% 0;
+    padding: 0;
+}
+.task-data {
+    padding: 0;
+    height: 100%;
+}
+.task-data-subject {
+    background: #967474;
+    font-weight: 600;
+    padding: 1.75%;
+    border-bottom: 1px solid black;
+}
+.task-data-desc {
+    padding: 1%;
+    height: 71%;
+    background: lightgrey;
+    resize: none;
+}
+.task-actions {
+    padding: 0;
+    height: 100%;
+}
+.task-action {
+    font-size: 140%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 1px;
+    height: 33.33%;
+}
+.task-item .task-report {
+    padding: 0;
+    height: 100%;
+}
+.task-report .task-report-text {
+    height: 100%;
+    padding: 1.5%;
+    border: solid black;
+    border-width: 0 4px;
+    width: 89%;
+    float: left;
+    resize: none;
+}
+.task-report .task-report-save {
+    padding: 12% 0;
+    color: black;
+    background: lightgrey;
+    height: 100%;
+    font-size: 150%;
+    width: 11%;
+    float: left;
+    border-radius: 0;
+}
+.task-files {
+    padding: 0;
+    height: 100%;
+}
+.task-files .not-files,
+.task-files .file-list {
+    height: 100%;
+    padding: 12%;
+    text-align: center;
+    font-weight: bolder;
+    width: 89%;
+    float: left;
+}
+.file-list {
+    padding: 1%!important;
+}
+.file-list .file-item {
+    height: 45%;
+    width: 12.5%;
+    margin: 0.5% 2% 1%;
+    float: left;
+    font-size: 300%;
+    padding: 1% 0;
+    color: black;
+    text-decoration: none;
+}
+.task-files .file-add {
+    float: left;
+    width: 11%;
+    height: 100%;
+    padding: 10.75% 1%;
+    font-size: 150%;
+    border-radius: 0;
+}
+.task-dropzone {
+    width: 89%;
+    float: left;
+    height: 100%;
+    min-height: 100%!important;
+    padding: 1%;
+    background: rgba(183, 228, 252, 0.61)!important;
+    margin: 0;
+    overflow-y: auto;
+    border-style: solid!important;
+    border-width: 0 0 2px 1px!important;
+    border-color: rgba(128, 128, 128, 0.51)!important;
+}
+.task-dropzone .dz-message {
+    font-weight: 600;
+    margin: 12.5% 25%;
+}
+.not-tasks {
+    padding: 14% 25%;
+    text-align: center;
+    font-weight: bolder;
+    background: #efefef;
+    height: 100%;
+}
+
+/* extras */
+#statistics {
+    height: 316px;
+}
+#show-comment,
+#show-equipment,
+#show-photo {
+    position: absolute;
+    top: 11.5%;
+}
+#show-comment {
+    left: 95.5%;
+}
+#show-equipment {
+    left: 91%;
+}
+#show-photo {
+    left: 86.5%;
+}
+
+/* laptop monitor 1366*768*/
+@media(min-width: 1360px) and (max-width: 1399px) {
+    #client-header {
+        padding: 0;
+        height: 41px;
+    }
+    #client-header #client-name {
+        height: 41px;
+        line-height: 55px;
+    }
+    #client-name #client-disc {
+        height: 41px;
+    }
+    #client-header #client-actions {
+        height: 41px;
+    }
+    #client-actions .client-action {
+        margin: 2.5% 1.5% 0;
+    }
+    #client-body {
+        padding: 0.5% 0.25%;
+        height: 100%;
+    }
+    #full-address {
+        padding: 0.75% 1%;
+    }
+    #tasks-list-title {
+        padding: 0;
+    }
+    #tasks-list {
+        height: 253px;
+        max-height: 253px;
+    }
+    #statistics {
+        height: 256px;
+        top: -3.5px;
+    }
+}
+
+/* MAC PRO screen 1366x768*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #client-header {
+        padding: 0;
+        height: 41px;
+    }
+    #client-header #client-name {
+        height: 41px;
+        line-height: 55px;
+    }
+    #client-name #client-disc {
+        height: 41px;
+    }
+    #client-header #client-actions {
+        height: 41px;
+    }
+    #client-actions .client-action {
+        margin: 2.5% 1.5% 0;
+    }
+    #client-actions .client-action i {
+        font-size: 150%;
+        padding: 18%;
+    }
+    #client-body {
+        padding: 0.5% 0.25%;
+        height: 100%;
+    }
+    #full-address {
+        padding: 0.75% 1%;
+    }
+    #tasks-list-title {
+        padding: 0;
+    }
+    #tasks-list {
+        height: 270px;
+        max-height: 270px;
+    }
+    #statistics {
+        height: 273px;
+        top: -3.5px;
+    }
+}

@@ -1,0 +1,70 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+.site-index {
+    height: 100%;
+}
+#index-info {
+    padding: 3%;
+    height: 100%;
+    background: #361010;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#logo-ei {
+    width: 67%;
+    margin: auto auto;
+    margin-top: 35%;
+}
+#logo-spy {
+    width: 46%;
+    margin: auto auto;
+    margin-top: 15%;
+}
+#login-block {
+    padding: 0;
+    height: 100%;
+    background: rgba(138, 138, 138, 0.63) none repeat scroll 0 0;
+}
+#login-form {
+    background: white;
+    margin: 30% 8.33333%;
+    padding: 8% 7%;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -webkit-box-shadow: -7px -5px 2px 3px rgb(35, 3, 3)
+box-shadow: -7px -5px 2px 3px rgb(35, 3, 3)
+}
+.shadow-field {
+    padding: 0;
+    height: 4em;
+    margin-bottom: 6%;
+}
+#login-form .form-control {
+    padding: 3%;
+    margin-top: 2%;
+    height: 3.25em;
+    width: 105%;
+    margin-left: 5%;
+}
+#user-icon, #pwd-icon {
+    padding: 2% 2%;
+    font-size: 130%;
+    background: #260606;
+    color: white;
+    box-shadow: 0 0 0 14px #260606;
+    margin: 2% 0;
+}
+
+/* laptop screen 1366x768 */
+@media (min-width: 1360px) and (max-width: 1399px){
+    #login-form {
+        margin: 22.5% 8.33333%;
+    }
+}
+/* MAC PRO screen 1280*800*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+    #login-form {
+        margin: 23% 8.33333%;
+        padding: 10.5% 7%;
+    }
+}
