@@ -584,7 +584,7 @@ class AdminController extends Controller
             }
         }
         return null;
-}
+    }
 
     /*
     * remove guide
